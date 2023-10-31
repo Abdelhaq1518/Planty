@@ -13,7 +13,7 @@ Updated: 2023-09-03 17:42:38
 /* GENERAL */
 
 * {
-    font-family: 'Syne', sans-serif;
+font-family: 'Syne', sans-serif;
 }
 
 /****** Header ***********/
@@ -37,12 +37,12 @@ header{
 /*code du menu de navigation*/
     
 .liste-liens{
-        display: flex;
-        list-style-type: none;
-        list-style: none;
-        margin-left: 700px;
-        margin-bottom:0;
-        margin-top:0;
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    margin-left: 700px;
+    margin-bottom:0;
+   margin-top:0;
         
     }   
     
@@ -284,7 +284,7 @@ header{
         
     /*lien Commander*/ 
 
-.button{
+    .button{
         display: flex;
         background-color: #DC9F96;
         text-transform: capitalize;
@@ -295,15 +295,15 @@ header{
     
       }  
         
-.lien-admin{
+    .lien-admin{
             display: flex;
             margin-top: 7px!important;
         }
-.lien-admin:hover{
+    .lien-admin:hover{
             color: black;
         }
 
-.logo{
+    .logo{
         display:flex;
         height:19px;
         max-width: 201px;
