@@ -14,9 +14,6 @@ Updated: 2023-09-03 17:42:38
 
 * {
     font-family: 'Syne', sans-serif;
-    border: 1px solid blue;
-
-
 }
 
 /****** Header ***********/
@@ -64,9 +61,7 @@ header{
    .lien-rencontrer:hover{
     color:black;
    }
-
-        
-    
+   
 /*lien Commander*/  
   .button{
     display: flex;
