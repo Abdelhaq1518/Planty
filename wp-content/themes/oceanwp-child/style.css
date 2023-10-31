@@ -77,19 +77,19 @@ header{
     margin-left: 50px ;
     text-align: center;
 
-  }  
-    .button:hover{
+  } 
+
+.button:hover{
         background-color: #DC9F96;
     }
 
-    .lien-admin{
+.lien-admin{
         display: flex;
         margin-top: 7px!important;
     }
-    .lien-admin:hover{
+.lien-admin:hover{
         color: black;
     }
-
 .logo{
     display:flex;
     height:19px;
