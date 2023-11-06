@@ -21,9 +21,10 @@ font-family: 'Syne', sans-serif;
 header{
     display:flex!important;
     width: 100%!important;
-    max-height: 80px;
-    padding:0;
-    margin: 0;
+    height: 60px;
+    margin-top:0px;
+
+
 
 }
 
@@ -42,7 +43,8 @@ header{
     list-style: none;
     margin-left: 700px;
     margin-bottom:0;
-   margin-top:0;
+    margin-top:0;
+    
         
     }   
     
@@ -56,6 +58,7 @@ header{
     font-weight: 400;
     margin-left: 150px;
     margin-top:7px;
+    padding-top: 10px;
     
 }
    .lien-rencontrer:hover{
@@ -63,14 +66,19 @@ header{
    }
    
 /*lien Commander*/  
+
   .button{
     display: flex;
     background-color: #DC9F96;
     text-transform: capitalize;
     font-family: 'Syne', sans-serif;
+    font-size: 16px;
     font-weight: 700;
     margin-left: 50px ;
+    width: auto;
+    height: 80px;
     text-align: center;
+    padding-top: 20px;
 
   } 
 
@@ -81,16 +89,18 @@ header{
 .lien-admin{
         display: flex;
         margin-top: 7px!important;
+        padding-top:10px;
     }
 .lien-admin:hover{
         color: black;
     }
 .logo{
     display:flex;
-    height:19px;
+    height:auto;
     width: 201px;
     margin-top: 13px;
     margin-left: 30px;
+    padding-top:6px;
 }
 
 
@@ -99,14 +109,23 @@ header{
 
 
 /* code du formulaire Nous Rencontrer*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: 'syne';
+    margin: 0 0 20px;
+    color: #333;
+    line-height: 1.4;
+}
 
 #wpcf7-f1321-p14-o1 input[type=text]{
+    font-family:'Syne'!important;
     width:383px;
     height: 71px;
     border-radius: 7px;
     background-color: white;
 }
 .wpcf7-textarea{
+    font-family:'Syne'!important;
     width:383px;
     height: 237px;
     background-color: white;
@@ -147,19 +166,19 @@ header{
     height: 56px;
     
     }
-    .boutoncompteur1{
+ .boutoncompteur1{
         color: white;
         border:0;
         border-top-right-radius:5px;
     }
-    .boutoncompteur2{
+ .boutoncompteur2{
         color:white;
         border:0;
         border-top:1px solid white;
         border-bottom-right-radius:5px;
     }
 
-    .boutonvalider .wpcf7-submit{
+.boutonvalider .wpcf7-submit{
         width:100px;
         height:56px;
         border-top-left-radius: 5px;
@@ -228,11 +247,13 @@ header{
     margin-left: 350px;
     margin-top: 50px;
     text-align: center;
+    font-weight: 300;
     text-transform: capitalize;
     background-color:#E0B9B4 ;
+    width: 198px;
     height: 55px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 23px;
     line-height: 37px;
 }
 /*code du footer*/
@@ -290,7 +311,9 @@ header{
         text-transform: capitalize;
         font-family: 'Syne', sans-serif;
         font-weight: 700;
-        margin-left: auto ;
+        font-size: smaller;
+        margin: auto ;
+        width: auto;
         text-align: center;
     
       }  
@@ -479,9 +502,9 @@ header{
         font-weight: 300!important;
     }
     .lien-admin:hover{
-        color: black;
+        color: black;   
     }
-.logo{
+    .logo{
     display:flex;
     height:auto;
     max-width: 150px;
@@ -493,7 +516,7 @@ header{
 /*formulaire Nous Rencontrer*/
 
 #wpcf7-f1321-p14-o1{
-    margin: auto;
+    margin-left: 40px!important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -677,9 +700,12 @@ header{
     text-transform: capitalize;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
-    max-width: 120px;
-    margin-left: 0 ;
+    margin: 0 ;
     text-align: center;
+    width:auto;
+    height: auto;
+    padding: auto! important;
+    
 
   }  
     
@@ -777,14 +803,14 @@ header{
     
     .section-informations{
         display: flex;
-        flex-direction: column;
-        width:99%;
+        flex-direction: column!important;
+        width:100%;
         gap:15px;
     }
     .section-livraison{
         display: flex;
-        flex-direction: column;
-        width:99%;
+        flex-direction: column!important;
+        width:100%;
         gap:15px;
         border-left:none;
         border-top: 1px solid white;
