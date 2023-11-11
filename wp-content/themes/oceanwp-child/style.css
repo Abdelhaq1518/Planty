@@ -21,14 +21,9 @@ font-family: 'Syne', sans-serif;
 header{
     display:flex!important;
     width: 100%!important;
-    height: 60px;
+    height: 80px;
     margin-top:0px;
-
-
-
 }
-
-    
 #main #content-wrap{
     
     padding: 0;
@@ -37,85 +32,140 @@ header{
    
 /*code du menu de navigation*/
     
-.liste-liens{
-    display: flex;
+.hfe-nav-menu{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     list-style: none;
-    margin-left: 700px;
-    margin-bottom:0;
-    margin-top:0;
+    margin-left: 371px!important;
     
-        
     }   
     
 /* lien Nous rencontrer*/
-.lien-rencontrer{
+
+#menu-item-106{
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Syne', sans-serif;
     width: 114px;
     height:19px;
     white-space: nowrap;
     font-weight: 400;
-    margin-left: 150px;
-    margin-top:7px;
-    padding-top: 10px;
+    margin: auto!important;
+    padding-right:20px; 
+    
+    
+
+
     
 }
-   .lien-rencontrer:hover{
-    color:black;
+#menu-item-106:hover{
+    color:black!important;
    }
    
 /*lien Commander*/  
 
-  .button{
+#menu-item-105{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #DC9F96;
     text-transform: capitalize;
-    font-family: 'Syne', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-left: 50px ;
-    width: auto;
+    font-family: 'Syne', sans-serif!important;
+    font-size: 16px!important;
+    line-height: 19px;
+    font-weight: 700!important;
+    width:236px;
     height: 80px;
     text-align: center;
-    padding-top: 20px;
-
+    padding-right:20px;
+    
+    
   } 
+  #menu-item-105:hover{
+    color: white!important;
+  }
+  /*Lien admin*/
 
-.button:hover{
-        background-color: #DC9F96;
-    }
+  .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400; 
+    width: 47px;
+    height:19px;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    margin-left: 20px ;
+    text-decoration: none; 
+}
 
-.lien-admin{
-        display: flex;
-        margin-top: 7px!important;
-        padding-top:10px;
-    }
-.lien-admin:hover{
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin :hover{
         color: black;
     }
-.logo{
+.hfe-site-logo{
     display:flex;
     height:auto;
     width: 201px;
     margin-top: 13px;
-    margin-left: 30px;
-    padding-top:6px;
+    margin-right: 80px;
+    padding-top:15px;
 }
 
 
 
 /****** body ***********/
 
+.elementor-12 .elementor-element.elementor-element-3e2e5b3{
+    background-color: #E3D9D0;
+    box-shadow: 0 10px 0 #DCD5CF;
+    border-radius: 0 0 7% 7%;
+}
+/*Section Boisson énergisante*/
+.elementor-element-3e2e5b3 {
+    margin: auto;
+    padding: auto; 
+    
+}
+/*Bouton "Commander"*/
 
+
+.elementor-12 .elementor-element.elementor-element-ca51319 .elementor-button {
+    font-family: "Syne", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 37px;
+    background-color: #E0B9B4;
+    width: 198px!important;
+    height:55px!important;
+    text-align: center!important;
+
+}
+.elementor-element-elementor-element-ca51319{
+    background-color: #E3D9D0;
+}
 /* code du formulaire Nous Rencontrer*/
+
 h1, h2, h3, h4, h5, h6 {
+
     font-weight: 600;
     font-family: 'syne';
     margin: 0 0 20px;
     color: #333;
     line-height: 1.4;
 }
+
+#wpcf7-f1321-p14-o1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+
+}
+
 
 #wpcf7-f1321-p14-o1 input[type=text]{
     font-family:'Syne'!important;
@@ -135,10 +185,15 @@ h1, h2, h3, h4, h5, h6 {
 #wpcf7-f1321-p14-o1 input[type=submit]{
     width: 198px;
     height: 55px;
-    margin-left: 90px;
+    margin-left: 80px;
     text-transform: capitalize;
-    background-color: #DC9F96;
+    background-color:#E0B9B4;
     border-radius: 5px;
+    font-weight:400;
+    font-size:15px;
+    line-height:37px;
+    text-align: center;
+
 }
 /*code du compteur de quantités*/
 
@@ -152,6 +207,8 @@ h1, h2, h3, h4, h5, h6 {
     width:51px ;
     height: 56px;
     background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }   
 .formulaire-compteur p{
     margin:0;
@@ -162,34 +219,35 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column!important;
     color: white!important;
-    width: 51px;
+    width: 31px;
     height: 56px;
-    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     }
  .boutoncompteur1{
         color: white;
         border:0;
-        border-top-right-radius:5px;
+        border-top-right-radius: 5px;
+        
     }
  .boutoncompteur2{
         color:white;
         border:0;
         border-top:1px solid white;
-        border-bottom-right-radius:5px;
+        border-bottom-right-radius: 5px;
+       
     }
 
 .boutonvalider .wpcf7-submit{
         width:100px;
         height:56px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius:5px;
+       border-radius: 5px 5px 5px 5px;
         background-color:#E0B9B4!important;
         
 
     }
-
-
-   
 
 /*effacement d'une span class issue d'Elementor*/
 .wpcf7-spinner{
@@ -200,19 +258,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .formulaire-commander{
     display: flex;
-    flex-direction: row;
-    gap: 70px;
+    justify-content: center;
+    align-items: center;
     background-color:#3B8E46;
   
 }
-
 
 .formulaire-commander input[type="text"]{
     background-color: white!important;
     border-radius:7px;
     width:100%;
     height: 71px;
-
 }
 .formulaire-commander h4{
     color: white;
@@ -230,8 +286,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     width:383px;
-    gap:15px;
-    
+    padding-right:25px;
+    gap:15px;   
 }
 .section-livraison{
     display: flex;
@@ -239,12 +295,12 @@ h1, h2, h3, h4, h5, h6 {
     width:383px;
     gap:15px;
     border-left:1px solid white;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 #wpcf7-f1177-p16-o5 input[type="submit"]{
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin-left: 350px;
     margin-top: 50px;
     text-align: center;
     font-weight: 300;
@@ -253,16 +309,31 @@ h1, h2, h3, h4, h5, h6 {
     width: 198px;
     height: 55px;
     border-radius: 5px;
-    font-size: 23px;
+    font-size: 15px;
+    justify-content:center;
+    margin: auto;
     line-height: 37px;
+}
+
+.elementor-12 .elementor-element.elementor-element-58a8a3b > .elementor-widget-container {
+    margin: 0px;
+}
+/*correction de la marge inférieure du footer "Nous Rencontrer"*/
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+
+    padding: 0px;
 }
 /*code du footer*/
 
 #menu-item-268{
     display: flex;
-    margin-right:290px;
-    padding-right: 280px;
+    justify-content: center!important;
+    align-items: center!important;
+    margin: auto !important;
     height: 60px;
+    
+   
 }
 
 /*media queries*/
@@ -271,33 +342,34 @@ h1, h2, h3, h4, h5, h6 {
    
 header{
         display: flex;
-        width: auto;
         
 
     }
 /*Menu de navigation*/
 
-    .liste-liens{
+.hfe-nav-menu{
         display: flex;
+        justify-content: center;
+        align-items: center;
         list-style-type: none;
         list-style: none;
-        margin-left: 500px;
-        margin-bottom:0;
-        margin-top:0;
+        margin: auto !important;;
+        width: auto!important;
         
-    } 
-    .lien-rencontrer{
+    }
+
+#menu-item-106{
         display: flex;
+        justify-content: center;
         font-family: 'Syne', sans-serif;
         width: 114px;
         height:19px;
         white-space: nowrap;
         font-weight: 400;
-        margin-left: auto;
-        margin-top:7px;
+        margin: auto;
         
     }
-       .lien-rencontrer:hover{
+    #menu-item-106:hover{
         color:black;
        }
     
@@ -305,8 +377,10 @@ header{
         
     /*lien Commander*/ 
 
-    .button{
+#menu-item-105{
         display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #DC9F96;
         text-transform: capitalize;
         font-family: 'Syne', sans-serif;
@@ -317,16 +391,18 @@ header{
         text-align: center;
     
       }  
-        
-    .lien-admin{
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
             margin-top: 7px!important;
         }
-    .lien-admin:hover{
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
             color: black;
         }
 
-    .logo{
+.hfe-site-logo{
         display:flex;
         height:19px;
         max-width: 201px;
@@ -375,9 +451,9 @@ header{
 
 .formulaire-commander{
     display: flex; 
-    align-items: center;
+    justify-content:center;
     text-align: center;
-    max-width:none ; 
+    width:auto ; 
     margin:0;  
     padding: 0;  
 }
@@ -388,7 +464,7 @@ header{
     background-color: white!important;
     border-radius:7px;
     width: 99%;
-    max-width:200px;
+    width:auto;
     height: auto;
     margin:auto;
     
@@ -427,8 +503,8 @@ header{
 
 #menu-item-268{
     display: flex;
-    align-items: center;
-    margin-right: 330px!important;
+    justify-content: center;
+    margin: auto !important;
     padding:0!important;
     text-align: center!important;
     white-space: nowrap;
@@ -442,7 +518,7 @@ header{
  
 header{
         display: flex;
-        align-items: center;
+      
     }
 
  
@@ -455,61 +531,73 @@ header{
     }
 
 
+
 /*Menu de navigation*/
 
-.liste-liens{
-    display: flex;
-    list-style-type: none;
-    list-style: none;
-    margin-left: 200px;
-    margin-bottom:0;
-    margin-top:0;
-    
-    
+.hfe-nav-menu{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+list-style: none;
+margin: auto!important;
+--e-transform-translateX: 25px!important;
+
+
 } 
-.lien-rencontrer{
-    display: flex;
-    font-family: 'Syne', sans-serif;
-    width: 114px;
-    height:19px;
-    white-space: nowrap;
-    font-weight: 400;
-    margin-left: auto;
-    margin-top:7px;
-    
+#menu-item-106{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Syne', sans-serif;
+height:auto;
+white-space: nowrap;
+font-weight: 400;
+margin-left: auto;
+margin-top:7px;
+
 }
-   .lien-rencontrer:hover{
-    color:black;
-   }
+#menu-item-106:hover{
+color:black;
+}
 
-        
     
+
 /*lien Commander*/  
-  .button{
-    display: flex;
-    background-color: #DC9F96;
-    text-transform: capitalize;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    margin-left: auto ;
-    text-align: center;
+#menu-item-105{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #DC9F96;
+text-transform: capitalize;
+font-family: 'Syne', sans-serif;
+font-weight: 500;
+margin: 0 ;
+text-align: center;
+width:auto;
+height: auto;
 
-  }  
-    
-    .lien-admin{
-        display: flex;
-        margin-top: 7px!important;
-        font-weight: 300!important;
-    }
-    .lien-admin:hover{
-        color: black;   
-    }
-    .logo{
-    display:flex;
-    height:auto;
-    max-width: 150px;
-    margin-top: 5px;
-    margin-left:6px;
+
+}  
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px!important;
+    font-weight: 300!important;
+}
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
+    color: black;
+}
+
+.hfe-site-logo{
+display:flex;
+height: 13px;
+max-width: 150px;
+margin-top: 5px;
+margin-left: 5px;
 }
     
 
@@ -554,7 +642,9 @@ header{
 .formulaire-commander{
     display: flex; 
     flex-direction: column!important;
-    margin: auto;      
+    width: auto! important;
+    margin: auto; 
+    padding:0;     
 }
 .formulaire-commander input[type="text"]{
     display:flex;
@@ -586,14 +676,12 @@ header{
     flex-direction: column;
     margin: auto;
     width:99%;
-    gap:15px;
 }
 .section-livraison{
     display: flex;
     flex-direction: column;
     margin:auto ;
     width:99%;
-    gap:15px;
     border-left:none;
     border-top: 1px solid white;
     padding: 15px;
@@ -648,9 +736,8 @@ header{
 
 #menu-item-268{
     display: flex;
-    width:auto;
+    width: auto !important;
     justify-content: center;
-    align-items: center;
     text-align: center;
     margin: auto!important;
     white-space: nowrap;
@@ -663,22 +750,24 @@ header{
 
 header{
         display: flex;
-        flex-direction: column!important;
+    
     }
     /*Menu de navigation*/
 
-.liste-liens{
+.hfe-nav-menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     list-style: none;
-    margin-left: auto;
-    margin-bottom:0;
-    margin-top:0;
+    margin: auto!important;
     gap: 10px;
     
 } 
-.lien-rencontrer{
+#menu-item-106{
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Syne', sans-serif;
     height:auto;
     white-space: nowrap;
@@ -687,41 +776,45 @@ header{
     margin-top:7px;
     
 }
-   .lien-rencontrer:hover{
+#menu-item-106:hover{
     color:black;
    }
 
         
     
 /*lien Commander*/  
-  .button{
+#menu-item-105{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #DC9F96;
     text-transform: capitalize;
     font-family: 'Syne', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 ;
     text-align: center;
     width:auto;
     height: auto;
-    padding: auto! important;
     
 
   }  
     
-    .lien-admin{
+  .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin{
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 7px!important;
         font-weight: 300!important;
     }
-    .lien-admin:hover{
+
+    .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
         color: black;
     }
 
-.logo{
+.hfe-site-logo{
     display:flex;
     height: 13px;
-    max-width: 100px;
+    max-width: 150px;
     margin-top: 5px;
     margin-left: 5px;
 }
@@ -770,7 +863,10 @@ header{
 
 
 .formulaire-commander{
-        display: flex; 
+        display: flex!important; 
+        justify-content: center!important;
+        padding:0!important;
+        margin: 0!important;
         flex-direction: column;
         gap:40px;
           
@@ -787,7 +883,7 @@ header{
     .formulaire-commander h3{
         text-align: center;
         color:white;
-        width:99%;
+        width:100%;
         font-size:20px;
         line-height: 30px;
         margin:auto;
@@ -888,7 +984,9 @@ header{
 
     #menu-item-268{
         display: flex;
+        justify-content: center;
         margin: auto !important;
+        width: auto!important;
         white-space: nowrap;
     }
 
