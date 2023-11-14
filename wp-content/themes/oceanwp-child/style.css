@@ -208,59 +208,6 @@ form textarea{
     text-align: center!important;
 
 }
-/*code du compteur de quantités*/
-
-.compteur-ligne{
-    display: flex!important;
-    
-}
-
-.compteur-ligne input[type=text]{
-    display: flex;
-    width:51px ;
-    height: 56px;
-    background-color: white;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}   
-.formulaire-compteur p{
-    margin:0;
-}
-/*boutons + et -*/
-
-.boutonscompteur{ 
-    display: flex;
-    flex-direction: column!important;
-    color: white!important;
-    width: 31px;
-    height: 56px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    }
- .boutoncompteur1{
-        color: white;
-        border:0;
-        border-top-right-radius: 5px;
-        
-    }
- .boutoncompteur2{
-        color:white;
-        border:0;
-        border-top:1px solid white;
-        border-bottom-right-radius: 5px;
-       
-    }
-
-.boutonvalider .wpcf7-submit{
-        width:100px;
-        height:56px;
-       border-radius: 5px 5px 5px 5px;
-        background-color:#E0B9B4!important;
-        
-
-    }
 
 /*effacement d'une span class issue d'Elementor*/
 .wpcf7-spinner{
@@ -286,7 +233,7 @@ form textarea{
     width:100%;
     height: 71px;
 }
-/*Ajouter pour demain l'id du form concerné*/
+
 
 #wpcf7-f1177-p16-o1-form-control-wrap {
     visibility: hidden;
@@ -414,7 +361,7 @@ header{
         margin: auto;
         
     }
-    #menu-item-106:hover{
+#menu-item-106:hover{
         color:black;
        }
     
@@ -484,7 +431,7 @@ header{
     border-radius: 7px;
     background-color: white;
 }
-.wpcf7-textarea{
+form textarea{
     width:auto;
     height:auto ;
     margin: auto;
@@ -684,7 +631,7 @@ margin-left: 5px;
     border-radius: 7px;
     background-color: white;
 }
-.wpcf7-textarea{
+form textarea{
     width:auto;
     height:auto ;
     margin: auto;
@@ -762,38 +709,6 @@ margin-left: 5px;
     padding: 0!important;
 }
 
-
-/*Compteur quantités*/
-
-.compteur-ligne input[type=text]{
-    display: flex;
-    width:51px ;
-    height: 56px;
-    background-color: white;
-    margin:0;
-}
-.boutonvalider .wpcf7-submit{
-    width:50px;
-    height:25px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius:5px;
-    background-color:#E0B9B4!important;
-    
-
-}
-#wpcf7-f1177-p16-o5 input[type="submit"]{
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-top: 50px;
-    text-align: center;
-    text-transform: capitalize;
-    background-color:#E0B9B4 ;
-    height: 55px;
-    border-radius: 5px;
-    font-size: 15px;
-    line-height: 37px;
-}
 /*code du footer*/
 
 #menu-item-268{
@@ -870,7 +785,7 @@ header{
         font-weight: 300!important;
     }
 
-    .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
         color: black;
     }
 
@@ -893,7 +808,7 @@ header{
     border-radius: 7px;
     background-color: white;
 }
-.wpcf7-textarea{
+form textarea{
     max-width:200px!important;
     height:auto!important ;
     margin: auto;
@@ -995,54 +910,6 @@ header{
         font-weight: 500;
     }
 
-/*Compteur quantités*/
-
-    .compteur-ligne{
-        display: flex!important;
-        justify-content: center!important;
-        align-items:center!important;
-        margin:auto !important;
-        
-    }
-    
-    .compteur-ligne input[type=text]{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:51px ;
-        height: 56px;
-        margin: auto!important;
-        background-color: white;
-    } 
-    .boutonscompteur{ 
-        display: flex;
-        color: white!important;
-        width: 51px;
-        height: 56px;
-        margin:auto!important;
-        
-        } 
-        .boutonscompteur{ 
-            display: flex;
-            flex-direction: column!important;
-            color: white!important;
-            width: 51px;
-            height: 56px;
-            
-            }
-
-        
-    .boutonvalider .wpcf7-submit{
-        display: flex!important;
-        flex-direction: column!important;
-        width: 80px;
-        height:36px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius:5px;
-        background-color:#E0B9B4!important;
-        
-
-    }
     /*footer*/
 
     #menu-item-268{
