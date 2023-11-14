@@ -118,17 +118,17 @@ header{
 
 /****** body ***********/
 
-.elementor-12 .elementor-element.elementor-element-3e2e5b3{
-    background-color: #E3D9D0;
-    box-shadow: 0 10px 0 #DCD5CF;
-    border-radius: 0 0 7% 7%;
-}
+
 /*Section Boisson énergisante*/
 .elementor-element-3e2e5b3 {
     margin: auto;
-    padding: auto; 
+
     
 }
+.elementor-column-gap-extended>.elementor-column>.elementor-element-populated {
+    padding: 0px;
+}
+
 /*Bouton "Commander"*/
 
 
@@ -174,25 +174,38 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 7px;
     background-color: white;
 }
-.wpcf7-textarea{
+ #wpcf7-f1321-p14-o1 form label {
+    display: flex!important;
+    align-items: flex-start!important;
+    justify-content: left!important;
+    font-family: "Syne", Sans-serif!important;
+    margin: 0;
+    color: black!important;
+    font-size: 20px;
+    line-height: 24px;
+}
+form textarea{
     font-family:'Syne'!important;
     width:383px;
     height: 237px;
-    background-color: white;
+    background-color: white!important;
     border-radius: 7px;
     margin-bottom: 50px;
 }
 #wpcf7-f1321-p14-o1 input[type=submit]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 198px;
     height: 55px;
-    margin-left: 80px;
+    margin-left:80px;
     text-transform: capitalize;
     background-color:#E0B9B4;
     border-radius: 5px;
     font-weight:400;
     font-size:15px;
     line-height:37px;
-    text-align: center;
+    text-align: center!important;
 
 }
 /*code du compteur de quantités*/
@@ -273,14 +286,16 @@ h1, h2, h3, h4, h5, h6 {
     width:100%;
     height: 71px;
 }
-.wpcf7-form-control-wrap {
+/*Ajouter pour demain l'id du form concerné*/
+
+#wpcf7-f1177-p16-o1-form-control-wrap {
     visibility: hidden;
     opacity: 0;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100;
     margin: 0;
     padding: 0;
 }
@@ -290,19 +305,15 @@ h1, h2, h3, h4, h5, h6 {
 form label {
     display: flex;
     justify-content: center;
+    align-items: left;
+    font-family: "Syne", sans-serif;
     margin:0;
     color: white;
     font-size: 20px;
     line-height:24px;
 }
 
-.wpcf7 input[type="email"]{
-    width:100%;
-    height:71px;
-    background-color: white;
-    border-radius:7px;
-    
-}
+
 .formulaire-commander h3{
     color:white;
     width:278px;
@@ -325,9 +336,15 @@ form label {
     border-left:1px solid white;
     padding-left: 25px;
 }
-#wpcf7-f1177-p16-o5 input[type="submit"]{
+
+#wpcf7-f1177-p16-o1 p[role="status"] {
+    margin: 0; 
+}
+
+#wpcf7-f1177-p16-o1 input[type="submit"]{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-top: 50px;
     text-align: center;
@@ -491,7 +508,7 @@ header{
     align-items: center;
     background-color: white!important;
     border-radius:7px;
-    width: 99%;
+    width: 100%;
     width:auto;
     height: auto;
     margin:auto;
@@ -509,6 +526,16 @@ header{
     flex-direction: column;
     width:auto;
     border-left:1px solid white;
+}
+form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Syne", sans-serif;
+    margin:0;
+    color: white;
+    font-size: 20px;
+    line-height:24px;
 }
 
 /*bouton submit du formulaire Commander*/
@@ -795,7 +822,8 @@ header{
     align-items: center;
     list-style-type: none;
     list-style: none;
-    margin: auto!important;
+    margin: 0!important;
+    padding:0!important;
     gap: 10px;
     
 } 
