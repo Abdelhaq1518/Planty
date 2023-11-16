@@ -20,9 +20,9 @@ font-family: 'Syne', sans-serif;
 
 header{
     display:flex!important;
-    width: 100%!important;
+    min-width:100%!important;
     height: 80px;
-    margin-top:0px;
+
 }
 #main #content-wrap{
     
@@ -31,29 +31,31 @@ header{
 }
    
 /*code du menu de navigation*/
+
+
+
     
-.hfe-nav-menu{
+.hfe-nav-menu {
     display: flex!important;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+    justify-content: space-between!important;
     list-style: none;
-    margin-left: 371px!important;
+    width:auto!important;
+    margin:auto !important;
     
-    }   
-    
+}
+
+
+
 /* lien Nous rencontrer*/
 
 #menu-item-106{
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Syne', sans-serif;
     width: 114px;
     height:19px;
     white-space: nowrap;
     font-weight: 400;
-    margin: auto!important;
+    margin:auto;
     padding-right:20px; 
     
     
@@ -69,8 +71,6 @@ header{
 
 #menu-item-105{
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #DC9F96;
     text-transform: capitalize;
     font-family: 'Syne', sans-serif!important;
@@ -79,8 +79,9 @@ header{
     font-weight: 700!important;
     width:236px;
     height: 80px;
-    text-align: center;
-    padding-right:20px;
+    align-items: center;
+    margin:auto!important;
+    
     
     
   } 
@@ -91,22 +92,23 @@ header{
 
   .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin {
     display: flex;
-    justify-content: center;
     align-items: center;
     font-weight: 400; 
     width: 47px;
     height:19px;
     font-family: 'Syne', sans-serif;
     font-size: 15px;
-    margin-left: 20px ;
+    margin:auto;
     text-decoration: none; 
 }
 
 .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin :hover{
         color: black;
     }
+    
+
 .hfe-site-logo{
-    display:flex;
+    display:inline-block!important;
     height:auto;
     width: 201px;
     margin-top: 13px;
@@ -218,6 +220,89 @@ form textarea{
  .elementor-container-elementor-column-gap-default {
     max-width: 1440px!important;
 }
+
+    /*Titre Votre commande*/
+    .elementor-element-e483357 {
+       display:flex;
+       justify-content: center;
+    }
+
+    /*Suppression de marges Elementor dans la section Commander*/
+    .elementor-section.elementor-top-section.elementor-element.elementor-element-d43c146 .elementor-container.elementor-column-gap-default {
+       margin-left:0;
+       margin-right:0;
+    }
+
+    /*Titre Commander*/
+    .elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
+        padding: 70px 70px 65px 70px;
+        margin:0!important;
+    }
+    
+
+    .elementor-section.elementor-inner-section.elementor-element.elementor-element-0140b9f {
+        background-color: #3B8E46;  
+    }
+    
+    
+
+
+    /*Barre de séparation au-dessus de votre commande*/
+
+ .elementor-16 .elementor-element.elementor-element-588653d img {
+  
+    max-width: 860px;
+    margin: auto;
+}
+.elementor-section.elementor-top-section.elementor-element.elementor-element-2e09d76.elementor-section-stretched.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default {
+    left:0;
+    right:0;
+}
+
+/*Alignement du titre Votre commande*/
+.elementor-16 .elementor-element.elementor-element-e483357 > .elementor-widget-container {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+/*Section des 4 images présentant les goûts*/
+.elementor-16 .elementor-element.elementor-element-2e09d76:not(.elementor-motion-effects-element-type-background){
+    
+    max-width: 860px;
+    margin:auto;
+   
+}
+/*Alignement des images*/
+
+.elementor-section.elementor-top-section.elementor-element.elementor-element-d43c146 .elementor-container.elementor-column-gap-default {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Ecart entre la barre et le formulaire*/
+
+ .elementor-16 .elementor-element.elementor-element-ddcc358 img {
+    width: 860px !important;
+    padding-bottom: 55px !important;
+}
+
+.elementor-16 .elementor-element.elementor-element-fe277a6{
+    max-width: 860px;
+    display: flex;
+    justify-content: center ;
+}
+.elementor-section.elementor-top-section.elementor-element.elementor-element-d43c146 .elementor-container.elementor-column-gap-default {
+    display:flex;
+    justify-content: center;
+}
+
+    
+
+        
+    
+       
+    
+
 .formulaire-commander{
     display: flex;
     justify-content: center;
@@ -251,7 +336,6 @@ form textarea{
 }
 form label {
     display: flex;
-    justify-content: center;
     align-items: left;
     font-family: "Syne", sans-serif;
     margin:0;
@@ -284,9 +368,19 @@ form label {
     padding-left: 25px;
 }
 
-#wpcf7-f1177-p16-o1 p[role="status"] {
-    margin: 0; 
+.bouton-commander p {
+    margin: 0!important; 
 }
+
+div.bouton-commander{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+
+    
 
 #wpcf7-f1177-p16-o1 input[type="submit"]{
     display: flex;
@@ -395,7 +489,7 @@ header{
         }
 
 .hfe-site-logo{
-        display:flex;
+        display:inline-block!important;
         height:19px;
         max-width: 201px;
         margin-top: 13px;
@@ -595,7 +689,7 @@ height: auto;
 }
 
 .hfe-site-logo{
-display:flex;
+display:inline-block!important;
 height: 13px;
 max-width: 150px;
 margin-top: 5px;
@@ -790,7 +884,7 @@ header{
     }
 
 .hfe-site-logo{
-    display:flex;
+    display:inline-block!important;
     height: 13px;
     max-width: 150px;
     margin-top: 5px;
@@ -814,7 +908,7 @@ form textarea{
     margin: auto;
     background-color: white;
     border-radius: 7px;
-    margin-bottom: 50px;
+    
 }
 #wpcf7-f1321-p14-o1 input[type=submit]{
    max-width: 100px;
@@ -914,7 +1008,7 @@ form textarea{
 
     #menu-item-268{
         display: flex;
-        justify-content: center;
+        justify-content: center!important;
         margin: auto !important;
         width: auto!important;
         white-space: nowrap;
