@@ -32,14 +32,28 @@ header{
    
 /*code du menu de navigation*/
 
+.elementor-12 .elementor-element.elementor-element-7f61c3b {
+    width: auto;
+}
+.elementor-14 .elementor-element.elementor-element-1567f12 {
+    width: auto;
+}
+.elementor-16 .elementor-element.elementor-element-e2ea669 {
+    width: auto;
+}
 
-
-    
+.elementor-section .elementor-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
 .hfe-nav-menu {
     display: flex!important;
-    justify-content: space-between!important;
+    align-items: center;
     list-style: none;
-    width:auto!important;
+    width:auto;
     margin:auto !important;
     
 }
@@ -56,21 +70,18 @@ header{
     white-space: nowrap;
     font-weight: 400;
     margin:auto;
-    padding-right:20px; 
-    
-    
-
-
-    
+       
 }
 #menu-item-106:hover{
-    color:black!important;
+  color:black!important;
    }
    
 /*lien Commander*/  
 
 #menu-item-105{
     display: flex;
+    justify-content: center;
+    align-items:center;
     background-color: #DC9F96;
     text-transform: capitalize;
     font-family: 'Syne', sans-serif!important;
@@ -81,8 +92,7 @@ header{
     height: 80px;
     align-items: center;
     margin:auto!important;
-    
-    
+      
     
   } 
   #menu-item-105:hover{
@@ -97,22 +107,37 @@ header{
     width: 47px;
     height:19px;
     font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    margin:auto;
+    font-size: 16px;
+    margin-left: 80px!important;
+    margin-right:90px!important;
     text-decoration: none; 
 }
+
+
 
 .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin :hover{
         color: black;
     }
     
+/*Code du logo*/
+
+.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-be5c9a0 {
+    width:auto;
+}
+.elementor-14 .elementor-element.elementor-element-2172410 {
+    width: auto;
+}
+.elementor-16 .elementor-element.elementor-element-3380a19 {
+    width: 5%;
+}
+
 
 .hfe-site-logo{
     display:inline-block!important;
     height:auto;
     width: 201px;
     margin-top: 13px;
-    margin-right: 80px;
+    margin-left:37px;
     padding-top:15px;
 }
 
@@ -215,7 +240,54 @@ form textarea{
 .wpcf7-spinner{
     display: none;
 }
+/*Section L'équipe*/
 
+/*Suppression de marges négatives issues d'Elementor*/
+
+.elementor-section.elementor-top-section.elementor-element.elementor-element-66f44d7 {
+    left:0!important;
+}
+.elementor-section.elementor-top-section.elementor-element.elementor-element-6409f0a {
+    left:0!important;
+    padding:0!important;
+}
+
+/*Alignement des images et suppression des marges*/
+.elementor-14 .elementor-element.elementor-element-082f4bb {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 70px 40px;
+    display: flex;
+    justify-content: center;
+}
+.elementor-14 .elementor-element.elementor-element-082f4bb.elementor-container {
+    max-width: 860px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 100px;
+}
+.elementor-container .elementor-column-gap-wider{
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.elementor-container.elementor-column-gap-wider.ui-sortable.ui-sortable-disabled {
+   margin-left: 0;
+   margin-right:0;
+}
+
+
+
+
+
+.elementor-14 .elementor-element.elementor-element-66f44d7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 40px 0px 0px 0px;
+    display:flex;
+    justify-content: center;
+}
  /* code du formulaire commander*/
  .elementor-container-elementor-column-gap-default {
     max-width: 1440px!important;
@@ -235,7 +307,7 @@ form textarea{
 
     /*Titre Commander*/
     .elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
-        padding: 70px 70px 65px 70px;
+        padding: 70px 70px 65px 0;
         margin:0!important;
     }
     
@@ -296,12 +368,64 @@ form textarea{
     justify-content: center;
 }
 
-    
+/*Compteur de pré commande 0*/
 
-        
+.compteur-ligne{
+    background-color:white;
+    width:39px;
+    height:55px;
+    border:none!important;
+}
+.formulaire-compteur{
+    display:flex;
+    justify-content:center;
+    border:none;
+    padding-bottom: 30px;
+}
+
+.compteur-valeur{
+    display:flex;
+    justify-content:center;
+    border:none;
+    height:55px!important;
+}
+.compteur-ligne p{
+    margin: 0;
+}
+
+#wpcf7-f4020-p16-o1 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     
-       
-    
+}
+#wpcf7-f4020-p16-o2 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o3 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o4 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .formulaire-commander{
     display: flex;
@@ -327,7 +451,7 @@ form textarea{
     left: 0;
     top: 0;
     width: 100%;
-    height: 100;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -336,7 +460,6 @@ form textarea{
 }
 form label {
     display: flex;
-    align-items: left;
     font-family: "Syne", sans-serif;
     margin:0;
     color: white;
@@ -377,12 +500,7 @@ div.bouton-commander{
     padding-bottom: 100px;
 }
 
-
-
-
-    
-
-#wpcf7-f1177-p16-o1 input[type="submit"]{
+.elementor-kit-21 input[type="submit"]{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -400,7 +518,6 @@ div.bouton-commander{
     margin: auto;
     line-height: 37px;
 }
-
 .elementor-12 .elementor-element.elementor-element-58a8a3b > .elementor-widget-container {
     margin: 0px;
 }
@@ -482,7 +599,8 @@ header{
             justify-content: center;
             align-items: center;
             align-items: center;
-            margin-top: 7px!important;
+            padding: auto;
+            margin: auto;
         }
 .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
             color: black;
@@ -533,6 +651,60 @@ form textarea{
     border-radius: 7px;
     
 }
+/*Compteur de pré commande 0*/
+
+.compteur-ligne{
+    background-color:white;
+    width: 39px;
+    height:55px;
+    border:none!important;
+}
+.formulaire-compteur{
+    display:flex;
+    justify-content:center;
+    border:none;
+    padding-bottom: 30px;
+}
+
+.compteur-valeur{
+    display:flex;
+    justify-content:center;
+    border:none;
+}
+
+#wpcf7-f4020-p16-o1 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o2 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o3 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o4 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Formulaire Commander*/
 
 .formulaire-commander{
@@ -680,7 +852,8 @@ height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7px!important;
+    padding: auto;
+    margin: auto;
     font-weight: 300!important;
 }
 
@@ -733,6 +906,60 @@ form textarea{
     border-radius: 7px;
     
 }
+/*Compteur de pré commande 0*/
+
+.compteur-ligne{
+    background-color:white;
+    width: 32px;
+    height: 45px;
+    border:none!important;
+}
+.formulaire-compteur{
+    display:flex;
+    justify-content:center;
+    border:none;
+    padding-bottom: 30px;
+}
+
+.compteur-valeur{
+    display:flex;
+    justify-content:center;
+    border:none!important;
+}
+
+#wpcf7-f4020-p16-o1 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o2 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o3 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o4 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*formulaire Commander*/
 
 .formulaire-commander{
@@ -777,7 +1004,7 @@ form textarea{
     display: flex;
     flex-direction: column;
     margin:auto ;
-    width:99%;
+    width:100%;
     border-left:none;
     border-top: 1px solid white;
     padding: 15px;
@@ -827,26 +1054,134 @@ header{
 
 .hfe-nav-menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     list-style-type: none;
     list-style: none;
     margin: 0!important;
     padding:0!important;
-    gap: 10px;
+    width: auto;
     
 } 
 #menu-item-106{
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: 'Syne', sans-serif;
     height:auto;
     white-space: nowrap;
     font-weight: 400;
-    margin-left: auto;
     margin-top:7px;
     
+}
+
+#main #content-wrap{
+    
+    padding: 0;
+
+}
+   
+/*code du menu de navigation*/
+
+.elementor-12 .elementor-element.elementor-element-7f61c3b {
+    width: auto;
+}
+.elementor-14 .elementor-element.elementor-element-1567f12 {
+    width: auto;
+}
+.elementor-16 .elementor-element.elementor-element-e2ea669 {
+    width: auto;
+}
+
+.elementor-section .elementor-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+
+
+/* lien Nous rencontrer*/
+
+#menu-item-106{
+    display: flex;
+    font-family: 'Syne', sans-serif;
+    width: 114px;
+    height:19px;
+    white-space: nowrap;
+    font-weight: 400;
+    margin:auto;
+    padding-right:20px; 
+    
+    
+
+
+    
+}
+#menu-item-106:hover{
+    color:black!important;
+   }
+   
+/*lien Commander*/  
+
+#menu-item-105{
+    display: flex;
+    background-color: #DC9F96;
+    text-transform: capitalize;
+    font-family: 'Syne', sans-serif!important;
+    font-size: 16px!important;
+    line-height: 19px;
+    font-weight: 700!important;
+    width:236px;
+    height: 80px;
+    align-items: center;
+    margin:auto!important;
+    
+    
+    
+  } 
+  #menu-item-105:hover{
+    color: white!important;
+  }
+  /*Lien admin*/
+
+  .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin {
+    display: flex;
+    align-items: center;
+    font-weight: 400; 
+    width: 47px;
+    height:19px;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    margin:auto!important;
+    padding: auto!important;
+    text-decoration: none; 
+}
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin :hover{
+        color: black;
+    }
+    
+/*Code du logo*/
+
+.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-be5c9a0 {
+    width:auto;
+}
+.elementor-14 .elementor-element.elementor-element-2172410 {
+    width: auto;
+}
+.elementor-16 .elementor-element.elementor-element-3380a19 {
+    width: auto;
+}
+
+.hfe-site-logo{
+    display:inline-block!important;
+    height:auto;
+    width: 201px;
+    margin-top: 13px;
+    margin-right: 80px;
+    padding-top:15px;
 }
 #menu-item-106:hover{
     color:black;
@@ -933,7 +1268,59 @@ form textarea{
             display: none;
         }
 
+/*Compteur de pré commande 0*/
 
+.compteur-ligne{
+    background-color:white;
+    width: 32px;
+    height:35px;
+    border:none!important;
+}
+.formulaire-compteur{
+    display:flex;
+    justify-content:center;
+    border:none;
+    padding-bottom: 30px;
+}
+
+.compteur-valeur{
+    display:flex;
+    justify-content:center;
+    border:none!important;
+}
+
+#wpcf7-f4020-p16-o1 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 300;
+    font-size:13px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o2 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 300;
+    font-size:13px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o3 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 300;
+    font-size:13px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wpcf7-f4020-p16-o4 input[type="text"]{
+    font-family:"Inter";
+    font-weight: 300;
+    font-size:13px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .formulaire-commander{
         display: flex!important; 
         justify-content: center!important;
@@ -974,6 +1361,7 @@ form textarea{
         flex-direction: column!important;
         width:100%;
         gap:15px;
+        padding:0;
     }
     .section-livraison{
         display: flex;
@@ -982,7 +1370,7 @@ form textarea{
         gap:15px;
         border-left:none;
         border-top: 1px solid white;
-        padding: 15px;
+        padding: 0;
         
     
     } 
