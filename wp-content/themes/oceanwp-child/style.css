@@ -651,7 +651,6 @@ header{
             justify-content: center;
             align-items: center;
             align-items: center;
-            padding: auto;
             margin: auto;
         }
 .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
@@ -912,7 +911,6 @@ height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: auto;
     margin: auto;
     font-weight: 300!important;
 }
@@ -926,6 +924,15 @@ display:inline-block!important;
 height: auto;
 max-width: 150px;
 margin:auto;
+}
+.elementor-12 .elementor-element.elementor-element-1d51d44 .hfe-site-logo .hfe-site-logo-container img {
+    padding-bottom: 15px; 
+}
+.elementor-14 .elementor-element.elementor-element-a09a29c .hfe-site-logo.hfe-site-logo .hfe-site-logo-container img {
+    padding-bottom: 15px;
+}
+.elementor-16 .elementor-element.elementor-element-9f0b960 .hfe-site-logo .hfe-site-logo-container img {
+    padding-bottom: 15px;
 }
 /*Paragraphe Chez Planty*/
 
@@ -1268,7 +1275,6 @@ header{
     font-family: 'Syne', sans-serif;
     font-size: 15px;
     margin:auto!important;
-    padding: auto!important;
     text-decoration: none; 
 }
 
@@ -1585,6 +1591,9 @@ form textarea{
         border-left:none;
         border-top: 1px solid white;
         padding-top: 20px;
+        padding-bottom:0;
+        padding-left:0;
+        padding-right:0
         
     
     } 
