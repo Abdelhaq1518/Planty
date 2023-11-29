@@ -154,6 +154,17 @@ header{
 .elementor-column-gap-extended>.elementor-column>.elementor-element-populated {
     padding: 0px;
 }
+/*Paragraphe Chez Planty*/
+
+.elementor-14 .elementor-element.elementor-element-bf47ab1 {
+    text-align: center;
+    color: #000000;
+    font-family: "Syne", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 680px;
+}
 
 /*Bouton "Commander"*/
 
@@ -189,6 +200,8 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     padding-left: 0;
+    
+   
 
 }
 
@@ -234,6 +247,7 @@ form textarea{
     text-align: center!important;
 
 }
+
 
 /*effacement d'une span class issue d'Elementor*/
 .wpcf7-spinner{
@@ -295,18 +309,6 @@ form textarea{
     padding-bottom: 20px;
     padding-top: 25px;
 }
-
-/*Paragraphe Chez Planty*/
-.elementor-14 .elementor-element.elementor-element-bf47ab1 {
-    text-align: center;
-    color: #000000;
-    font-family: "Syne", Sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    width: 680px;
-}
-
 
 
 /*Alignement des images et suppression des marges*/
@@ -665,6 +667,16 @@ header{
         margin-left: 30px;
     }
 
+/*Image de la plante section l'équipe*/
+
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-f2ff487 {
+    left: 475px;
+}
+.elementor-14 .elementor-element.elementor-element-f2ff487 {
+    top: 95px;
+}
+
+
 
 
 /*formulaire Nous Rencontrer*/
@@ -699,16 +711,19 @@ form textarea{
     height:auto ;
     margin: auto;
     background-color: white;
-    border-radius: 7px;
-    
-}body:not(.rtl) .elementor-14 .elementor-element.elementor-element-f2ff487 {
-    left: 475px;
+    border-radius: 7px;    
 }
-.elementor-14 .elementor-element.elementor-element-f2ff487 {
-    top: 95px;
+/*Image du formulaire Nous rencontrer*/
+
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-ce91d16 {
+    left: -85px;
+}
+.elementor-14 .elementor-element.elementor-element-ce91d16 {
+    top: 384px;
+    z-index: 1;
 }
 
-/*Image de la plante section l'équipe*/
+
 
 /*Compteur de pré commande 0*/
 
@@ -936,11 +951,15 @@ margin:auto;
 }
 /*Paragraphe Chez Planty*/
 
+.elementor-12 .elementor-element.elementor-element-85cd3ec {
+   
+    font-size: 22px;
+}
+
 .elementor-14 .elementor-element.elementor-element-bf47ab1 {
     text-align: center;
     color: #000000;
     font-family: "Syne", Sans-serif;
-    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     width: auto!important;
@@ -977,6 +996,14 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-114866e {
     top: 0;
     display: none;
 }
+
+/*Titre Nous Contacter*/
+.elementor-14 .elementor-element.elementor-element-2910907 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 40px 0px;
+    --e-transform-translateX: 0px;
+}
+
 /*formulaire Nous Rencontrer*/
 
 #wpcf7-f1321-p14-o1{
@@ -1013,8 +1040,11 @@ form textarea{
     border-radius: 7px;
     
 }
+/*Titre Votre Commande*/
 
-
+.elementor-16 .elementor-element.elementor-element-e483357 {
+    font-size:24px!important;
+}
 
 /*Compteur de pré commande 0*/
 
@@ -1103,8 +1133,8 @@ form label {
 .formulaire-commander h3{
     color:white;
     text-align: center;
-    width:99%;
-    font-size:20px;
+    width:100%;
+    font-size:24px;
     line-height: 36px;
 }
 .formulaire-commander h4{
@@ -1170,7 +1200,7 @@ header{
         display: flex;
     
     }
-    /*Menu de navigation*/
+ /*Menu de navigation*/
 
 .hfe-nav-menu{
     display: flex;
@@ -1350,15 +1380,14 @@ header{
 }
 /*Paragraphe Chez Planty*/
 
-.elementor-14 .elementor-element.elementor-element-bf47ab1 {
-    text-align: center;
-    color: #000000;
-    font-family: "Syne", Sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 20px;
-    width: auto!important;
+.elementor-12 .elementor-element.elementor-element-85cd3ec {
+ 
+    font-size: 17px;
 }
+.elementor-14 .elementor-element.elementor-element-bf47ab1 {
+    width:100%!important;
+    }
+
 /*Section Nous rencontrer*/
 
 .elementor-14 .elementor-element.elementor-element-4f31b94 > .elementor-widget-container {
@@ -1383,13 +1412,6 @@ header{
         font-size:22px!important;
     }
 
-
-
-/*Paragraphe Chez Planty*/
-
-    .elementor-14 .elementor-element.elementor-element-bf47ab1 {
-    width:100%!important;
-    }
 
 /*Titre L'équipe*/
 
@@ -1463,6 +1485,20 @@ form textarea{
 .elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
     padding: 70px 65px 0;
     margin: 0!important;
+   
+}
+.elementor-16 .elementor-element.elementor-element-a90e240 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Syne", Sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 46px;
+    border-bottom:1px solid white;
+    padding-bottom:5px;
+}
+.elementor-16 .elementor-element.elementor-element-a90e240 .elementor-heading-title {
+  
+    font-size: 24px!important;
 }
 
 /*Barre de séparation au-dessus de votre commande*/
@@ -1555,7 +1591,7 @@ form textarea{
         align-items: center;
         background-color: white!important;
         border-radius:7px;
-        width: 99%;
+        width: 100%;
         height: 71px;
         
     }
@@ -1563,7 +1599,7 @@ form textarea{
         text-align: center;
         color:white;
         width:100%;
-        font-size:20px;
+        font-size:25px;
         line-height: 30px;
         margin:auto;
     }
