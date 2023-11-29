@@ -59,7 +59,6 @@ header{
 }
 
 
-
 /* lien Nous rencontrer*/
 
 #menu-item-106{
@@ -201,10 +200,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     padding-left: 0;
     
-   
-
 }
-
 
 #wpcf7-f1321-p14-o1 input[type=text]{
     font-family:'Syne'!important;
@@ -248,7 +244,6 @@ form textarea{
 
 }
 
-
 /*effacement d'une span class issue d'Elementor*/
 .wpcf7-spinner{
     display: none;
@@ -271,15 +266,11 @@ form textarea{
 }
 
 
-
-
 /*Image Nous rencontrer*/
 .elementor-element-114866e {
  width: 145px!important;  
  height:150px!important; 
 }
-
-
 
 /*Section L'équipe*/
 
@@ -331,9 +322,6 @@ form textarea{
 }
 
 
-
-
-
 .elementor-14 .elementor-element.elementor-element-66f44d7 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -342,33 +330,30 @@ form textarea{
     justify-content: center;
 }
 
-    /*Titre Votre commande*/
+/*Titre Votre commande*/
     .elementor-element-e483357 {
        display:flex;
        justify-content: center;
     }
 
-    /*Suppression de marges Elementor dans la section Commander*/
+/*Suppression de marges Elementor dans la section Commander*/
     .elementor-section.elementor-top-section.elementor-element.elementor-element-d43c146 .elementor-container.elementor-column-gap-default {
        margin-left:0;
        margin-right:0;
     }
     
 
-    /*Titre Commander*/
-    .elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
+/*Titre Commander*/
+.elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
         padding: 70px 70px 65px 0;
         margin:0!important;
     }
     
 
-    .elementor-section.elementor-inner-section.elementor-element.elementor-element-0140b9f {
+.elementor-section.elementor-inner-section.elementor-element.elementor-element-0140b9f {
         background-color: #3B8E46;  
     }
     
-    
-
-
 /*Barre de séparation au-dessus de votre commande*/
 
  .elementor-16 .elementor-element.elementor-element-588653d img {
@@ -476,6 +461,7 @@ form textarea{
     justify-content: center;
     align-items: center;
 }
+
  /* code du formulaire commander*/
  .elementor-container-elementor-column-gap-default {
     width: 1440px!important;
@@ -632,7 +618,7 @@ header{
     
             
         
-    /*lien Commander*/ 
+/*lien Commander*/ 
 
 #menu-item-105{
         display: flex;
@@ -675,9 +661,6 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-f2ff487 {
 .elementor-14 .elementor-element.elementor-element-f2ff487 {
     top: 95px;
 }
-
-
-
 
 /*formulaire Nous Rencontrer*/
 
@@ -872,8 +855,6 @@ header{
     
     }
 
-
-
 /*Menu de navigation*/
 
 .hfe-nav-menu{
@@ -919,7 +900,6 @@ text-align: center;
 width:auto;
 height: auto;
 
-
 }  
 
 .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin{
@@ -955,6 +935,9 @@ margin:auto;
    
     font-size: 22px;
 }
+.elementor-14 .elementor-element.elementor-element-bf47ab1 {
+    width:100%!important;
+    }
 
 .elementor-14 .elementor-element.elementor-element-bf47ab1 {
     text-align: center;
@@ -983,11 +966,7 @@ margin:auto;
         max-width:none!important;
         align-self: center;
     }
-    /*Paragraphe Chez Planty*/
-
-.elementor-14 .elementor-element.elementor-element-bf47ab1 {
-    width:100%!important;
-    }
+  
 
 /*Image Nous rencontrer*/
 
@@ -1428,8 +1407,6 @@ header{
    
 }
 
-
-
 /*Image Nous rencontrer*/
 
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-114866e {
@@ -1437,8 +1414,6 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-114866e {
     top: 0;
     display: none;
 }
-    
-    
 
 /* code du formulaire Nous Rencontrer*/
 
@@ -1466,7 +1441,6 @@ form textarea{
     background-color: #DC9F96;
     border-radius: 5px;
 }
-
 
 .elementor-heading-title{
         width:100%;
@@ -1519,8 +1493,15 @@ form textarea{
 
 .elementor-16 .elementor-element.elementor-element-e483357 {
     font-size:22px!important;
-}
     
+
+}
+/*Ecart entre Votre Commande et Commander*/
+
+.elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
+    padding: 50px 65px 45px;
+    margin: 0!important;
+}
 
 /*Compteur de pré commande 0*/
 
@@ -1577,12 +1558,6 @@ form textarea{
     justify-content: center;
     align-items: center;
     padding-bottom:18px!important;
-}
-/*Ecart entre Votre Commande et Commander*/
-
-.elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
-    padding: 50px 65px 45px;
-    margin: 0!important;
 }
 
 .formulaire-commander{
