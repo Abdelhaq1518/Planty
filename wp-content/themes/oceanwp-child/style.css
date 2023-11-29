@@ -1508,6 +1508,20 @@ form textarea{
 }
 
 
+/*Section Votre Commande suivie des images*/
+
+.elementor-16 .elementor-element.elementor-element-f25f48a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 80px 25px;
+}
+/*Titre Votre Commande*/
+
+.elementor-16 .elementor-element.elementor-element-e483357 {
+    font-size:22px!important;
+}
+    
+
 /*Compteur de pré commande 0*/
 
 .compteur-ligne{
@@ -1570,13 +1584,7 @@ form textarea{
     padding: 50px 65px 45px;
     margin: 0!important;
 }
-/*Section Votre Commande suivie des images*/
 
-.elementor-16 .elementor-element.elementor-element-f25f48a {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px 0px 80px 25px;
-}
 .formulaire-commander{
         display: flex!important; 
         justify-content: center!important;
