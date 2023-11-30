@@ -778,7 +778,6 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-ce91d16 {
     align-items: center;
     background-color: white!important;
     border-radius:7px;
-    width: 100%;
     width:auto;
     height: auto;
     margin:auto;
@@ -1094,7 +1093,6 @@ form textarea{
     background-color: white!important;
     border-radius:7px;
     width: 100%;
-    width:383px;
     height: 71px;
     margin:auto;
     
@@ -1127,7 +1125,8 @@ form label {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width:99%;
+    width:100%;
+    padding:0!important;
 }
 .section-livraison{
     display: flex;
@@ -1136,7 +1135,7 @@ form label {
     width:100%;
     border-left:none;
     border-top: 1px solid white;
-    padding: 15px;
+    padding: 0!important;
    
 }
 #wpcf7-f1177-p16-o5 input[type="submit"]{
