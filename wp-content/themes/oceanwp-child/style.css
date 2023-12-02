@@ -68,7 +68,7 @@ header{
     height:19px;
     white-space: nowrap;
     font-weight: 400;
-    margin:auto;
+    margin-right:80px!important;
        
 }
 #menu-item-106:hover{
@@ -97,6 +97,10 @@ header{
   #menu-item-105:hover{
     color: white!important;
   }
+
+  #menu-item-105:hover{
+    color: white!important;
+  }
   /*Lien admin*/
 
   .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin {
@@ -107,8 +111,7 @@ header{
     height:19px;
     font-family: 'Syne', sans-serif;
     font-size: 16px;
-    margin-left: 80px!important;
-    margin-right:90px!important;
+    margin-right: 120px!important;
     text-decoration: none; 
 }
 
@@ -130,7 +133,7 @@ header{
     width: auto;
 }
 
-.hfe-site-logo{
+.hfe-site-logo-set{
     display:inline-block!important;
     height:auto;
     width: 201px;
@@ -182,6 +185,12 @@ header{
 .elementor-element-elementor-element-ca51319{
     background-color: #E3D9D0;
 }
+/*Image des cannettes en bas de la section*/
+.attachment-full.size-full.wp-image-4714 {
+    width:1440px!important;
+    height:638px;
+}
+
 /* code du formulaire Nous Rencontrer*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -300,6 +309,14 @@ form textarea{
     padding-bottom: 20px;
     padding-top: 25px;
 }
+/*Image des cannettes Nous Rencontrer*/
+
+.attachment-full.size-full.wp-image-4714 {
+   width:100%!important;
+   height:auto;
+}
+
+
 
 
 /*Alignement des images et suppression des marges*/
@@ -581,6 +598,17 @@ div.bouton-commander{
 
 /*media queries*/
 
+@media screen and (max-width: 1440px) and (min-width: 320px) {
+    
+    
+    .attachment-2048x2048.size-2048x2048.wp-image-4714 {
+        width: 100vw!important; 
+        height: auto; 
+    }
+    
+}
+
+
 @media screen and (min-width: 1025px) and (max-width: 1350px) {
    
 header{
@@ -609,7 +637,7 @@ header{
         height:19px;
         white-space: nowrap;
         font-weight: 400;
-        margin: auto;
+        margin-right:auto;
         
     }
 #menu-item-106:hover{
@@ -639,19 +667,26 @@ header{
             justify-content: center;
             align-items: center;
             align-items: center;
-            margin: auto;
+            margin-right: auto;
         }
 .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-admin:hover{
             color: black;
         }
 
-.hfe-site-logo{
+.hfe-site-logo-set{
         display:inline-block!important;
         height:19px;
         max-width: 201px;
         margin-top: 13px;
         margin-left: 30px;
     }
+/*Image des cannettes accueil*/
+.elementor-12 .elementor-element.elementor-element-fe0dc4e > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+    --e-transform-scaleX: 1;
+    --e-transform-skewX: 0deg;
+}
 
 /*Image de la plante section l'équipe*/
 
@@ -705,6 +740,17 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-ce91d16 {
     top: 384px;
     z-index: 1;
 }
+
+/*Image des cannettes Nous Rencontrer*/
+
+.elementor-14 .elementor-element.elementor-element-95a4cc3 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+    --e-transform-scaleX: 1;
+    --e-transform-skewX: 0deg;
+}
+
+ 
 
 
 
@@ -875,7 +921,7 @@ font-family: 'Syne', sans-serif;
 height:auto;
 white-space: nowrap;
 font-weight: 400;
-margin-left: auto;
+margin-right: 80px!important;
 
 
 }
@@ -905,7 +951,7 @@ height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-right:auto;
     font-weight: 300!important;
 }
 
@@ -913,19 +959,20 @@ height: auto;
     color: black;
 }
 
-.hfe-site-logo{
+.hfe-site-logo-set{
 display:inline-block!important;
 height: auto;
 max-width: 150px;
 margin:auto;
+padding-top:5px!important;
 }
-.elementor-12 .elementor-element.elementor-element-1d51d44 .hfe-site-logo .hfe-site-logo-container img {
+.elementor-12 .elementor-element.elementor-element-1d51d44 .hfe-site-logo .hfe-site-logo-set-container img {
     padding-bottom: 15px; 
 }
-.elementor-14 .elementor-element.elementor-element-a09a29c .hfe-site-logo.hfe-site-logo .hfe-site-logo-container img {
+.elementor-14 .elementor-element.elementor-element-a09a29c .hfe-site-logo.hfe-site-logo .hfe-site-logo-set-container img {
     padding-bottom: 15px;
 }
-.elementor-16 .elementor-element.elementor-element-9f0b960 .hfe-site-logo .hfe-site-logo-container img {
+.elementor-16 .elementor-element.elementor-element-9f0b960 .hfe-site-logo .hfe-site-logo-set-container img {
     padding-bottom: 15px;
 }
 /*Paragraphe Chez Planty*/
@@ -1017,6 +1064,13 @@ form textarea{
     background-color: white;
     border-radius: 7px;
     
+}
+
+/*Titre Commander*/
+
+.elementor-16 .elementor-element.elementor-element-a90e240 > .elementor-widget-container {
+    padding: 70px 0 65px 0;
+    margin: 0!important;
 }
 /*Titre Votre Commande*/
 
@@ -1125,14 +1179,14 @@ form label {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width:100%;
+    width:70%;
     padding:0!important;
 }
 .section-livraison{
     display: flex;
     flex-direction: column;
     margin:auto ;
-    width:100%;
+    width:70%;
     border-left:none;
     border-top: 1px solid white;
     padding: 0!important;
@@ -1198,6 +1252,8 @@ header{
     white-space: nowrap;
     font-weight: 400;
     margin-top:7px;
+    margin-right:0!important;
+    padding-right:0!important;
     
 }
 
@@ -1293,7 +1349,7 @@ header{
 /*Code du logo*/
 
 .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-be5c9a0 {
-    width:auto;
+    width: auto;
 }
 .elementor-14 .elementor-element.elementor-element-2172410 {
     width: auto;
@@ -1302,12 +1358,13 @@ header{
     width: auto;
 }
 
-.hfe-site-logo{
+.hfe-site-logo-set{
     display:inline-block!important;
     height:auto;
     width: 201px;
     margin-top: 13px;
-    margin-right: 80px;
+    margin-left:0;
+    margin-right: 0;
     padding-top:15px;
 }
 #menu-item-106:hover{
@@ -1346,7 +1403,7 @@ header{
         color: black;
     }
 
-.hfe-site-logo{
+.hfe-site-logo-set{
     display:inline-block!important;
     height: 13px;
     max-width: 150px;
@@ -1597,14 +1654,16 @@ form textarea{
 .section-informations{
         display: flex;
         flex-direction: column!important;
-        width:100%;
+        width:80%;
+        margin:0 auto;
         gap:15px;
         padding:0;
     }
 .section-livraison{
         display: flex;
         flex-direction: column!important;
-        width:100%;
+        width:80%;
+        margin:0 auto;
         gap:15px;
         border-left:none;
         border-top: 1px solid white;
