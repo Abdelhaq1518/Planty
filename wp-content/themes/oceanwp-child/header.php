@@ -16,6 +16,4 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> <?php oceanwp_schema_markup('html'); ?>>
-
-	<header class="header">
+<body <?php oceanwp_schema_markup('html'); ?> <?php body_class(); ?>>

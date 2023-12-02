@@ -1,10 +1,10 @@
 <?php do_action('ocean_after_footer'); ?>
 
-</div><!-- #wrap -->
+<!-- #wrap -->
 
 <?php do_action('ocean_after_wrap'); ?>
 
-</div><!-- #outer-wrap -->
+<!-- #outer-wrap -->
 
 <?php do_action('ocean_after_outer_wrap'); ?>
 

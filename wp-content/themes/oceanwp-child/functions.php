@@ -32,20 +32,18 @@ function add_admin_link_to_menu($items, $args)
     if (is_user_logged_in() && current_user_can('administrator')) {
         // Créer un lien vers le tableau de bord WordPress
         $admin_link = '<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-admin"><a href="' . admin_url() . '">Admin</a></li>';
-
         // Trouver la position du menu "Nous rencontrer"
-        $meet_position = strpos($items, 'Nous rencontrer');
-
+        $meet_position = strpos($items, '<li id="menu-item-106"');
         // Vérifier si "Nous rencontrer" existe dans le menu
         if ($meet_position !== false) {
-            // Calculer la position de "Commander" en fonction de "Nous rencontrer"
-            $order_position = $meet_position + strlen('Nous rencontrer');
-
-            // Insérer le lien "Admin" à la position calculée
-            $items = substr_replace($items, $admin_link, $order_position, 0);
+            // Trouver la position du menu "Commander"
+            $order_position = strpos($items, '<li id="menu-item-105"');
+            // Insérer le lien "Admin" entre "Nous rencontrer" et "Commander"
+            if ($order_position !== false) {
+                $items = substr_replace($items, $admin_link, $order_position, 0);
+            }
         }
     }
     return $items;
 }
 add_filter('wp_nav_menu_items', 'add_admin_link_to_menu', 10, 2);
-
